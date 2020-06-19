@@ -49,7 +49,28 @@ $(document).ready(function () {
         }, 1000);
     }
 
-    
+    function timeColor() {
+        currentHour = moment().format("hhA");
+
+        if (possibleHours.before.indexOf(currentHour) !== -1) {
+            $(".hourMemo").css("background-color", "#ffd376");
+        }
+        if (possibleHours.after.indexOf(currentHour) !== -1) {
+            $(".hourMemo").css("background-color", "#9adcf0");
+        }
+        if (possibleHours.work.indexOf(currentHour) !== -1) {
+            $("#" + currentHour).css({"background-color":"black", "color":"white"});
+            
+            for (let i = 0; i < possibleHours.work.indexOf(currentHour); i++) {
+                $("#" + currentHour.css("background-color", "#9adcf0"));
+            }
+            for (let i = possibleHours.work.indexOf(currentHour)-1; i > possibleHours.work.indexOf(currentHour); i--) {
+                $("#" + currentHour.css("background-color", "#f8cadf"));
+            }
+        }
+
+    }
+
 
     init();
 });
