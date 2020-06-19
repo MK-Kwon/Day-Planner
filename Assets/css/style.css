@@ -1,0 +1,80 @@
+body {
+    color:rgb(59, 59, 59);
+}
+
+.jumbotron {
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #e7d5ff;
+    
+}
+
+.jumbotron p {
+    
+}
+.white {
+    background-color: white;
+}
+
+.purple {
+    background-color: #e7d5ff;
+}
+
+.pink {
+    background-color: #f8cadf;
+}
+
+.blue {
+    background-color: #9adcf0;
+}
+
+.yellow {
+    background-color: #ffd376;
+}
+
+.beige {
+    background-color: #ffc292;
+}
+
+.hour {
+  
+  box-sizing: border-box;
+  border: 1px solid #bbb;
+  border-left: none;
+  border-bottom: none;
+  width: 90px;
+  padding: 5px 10px;
+}
+
+.hour p {
+    font-size: 15px;
+}
+
+.hourMemo {
+  box-sizing: border-box;
+  width: calc(100% - 130px);
+  border: none;
+  border-top: 1px solid #bbb;
+  
+  padding: 5px;
+
+}
+
+.last-hour,
+.last-hourMemo {
+    border-bottom: 1px solid #bbb;
+}
+
+.saveBtn {
+    box-sizing: border-box;
+    border: 0.5px solid rgb(124, 124, 124);
+    border-bottom: none;
+    background-color: #8b82d0;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+}
+
+.fa-save {
+    color: white;
+}
