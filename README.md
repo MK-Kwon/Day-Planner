@@ -1,4 +1,5 @@
 # Day-Planner
 A calendar application that allows the user to save events for each hour of the day.
-<img src="https://media.giphy.com/media/gIHzmzggpMr4Gl6KdN/giphy.gif" width="1000" height="600">
-
+<video width="320" height="240" controls>
+  <source src="Day%20Planner.mov" type="video/mp4">
+</video>
