@@ -68,4 +68,20 @@ $(document).ready(function() {
                 localStorage.setItem("05PMtext", textId);
         }
     });
+    function loadSavedData() {
+        $("#07AM").text(localStorage.getItem("07AMtext"));
+        $("#08AM").text(localStorage.getItem("08AMtext"));
+        $("#09AM").text(localStorage.getItem("09AMtext"));
+        $("#10AM").text(localStorage.getItem("10AMtext"));
+        $("#11AM").text(localStorage.getItem("11AMtext"));
+        $("#12PM").text(localStorage.getItem("12PMtext"));
+        $("#01PM").text(localStorage.getItem("01PMtext"));
+        $("#02PM").text(localStorage.getItem("02PMtext"));
+        $("#03PM").text(localStorage.getItem("03PMtext"));
+        $("#04PM").text(localStorage.getItem("04PMtext"));
+        $("#05PM").text(localStorage.getItem("05PMtext"));
+
+    }
+
+    loadSavedData();
 });
