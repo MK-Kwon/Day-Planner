@@ -8,5 +8,6 @@ The application is fully responsive through Bootstrap.
 *Deployed Website:
 https://mk-kwon.github.io/Day-Planner/
 
-<img src="https://media.giphy.com/media/ZXfH1genXT9hQrdtjW/giphy.gif" width:1000 height:800>
-<img src="http://drive.google.com/uc?id=1jowFeVVVkWeMRqCxBGlzDqaV0-orGLP6">
+<img src="https://media.giphy.com/media/ZXfH1genXT9hQrdtjW/giphy.gif" width ="100%" height="auto">
+<img src="http://drive.google.com/uc?id=1jowFeVVVkWeMRqCxBGlzDqaV0-orGLP6" width ="100%" height="auto">
+ 
